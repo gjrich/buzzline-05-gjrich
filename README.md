@@ -8,9 +8,9 @@ We use SQLite, but the example could be altered to work with MySQL, PostgreSQL, 
 
 By using producer_gjrich.py and consumer_gjrich.py, the custom medieval messages produced by this environment are analyzed to determine the count of each letter.
 
-For each randomly produced message, a count of each letter is then built in the database.
+For each randomly produced message, a count of each letter is then built in the buzz.sqlite database.
 
-
+Prereq: Zookeeper and Kafka must be installed, configured, and active. See further down in the referential instructions if necessary.
 
 On Windows, to run the environment (after installing, configuring, and running zookeeper and kafka), first start the producer:
 .venv\Scripts\activate
