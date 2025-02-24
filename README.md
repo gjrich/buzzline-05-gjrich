@@ -1,6 +1,8 @@
 # buzzline-05-gjrich
 
-By using producer_gjrich.py and consumer_gjrich.py, the custom medieval messages produced by this environment are analyzed to determine the count of each letter. They are stored in a SQLite Database as a tally count of each letter.
+This is a repository which generates random custom medieval messages and then analyzes them.
+
+By using producer_gjrich.py generates and stores the messages in a json file, and consumer_gjrich.py, the analyzes the messages to determine the count of each letter A-Z in the message. They are stored in a SQLite Database as a tally count of each letter as an individual column.
 
 For each randomly produced message, a count of each letter is then built in the buzz.sqlite database.
 
