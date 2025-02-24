@@ -10,7 +10,11 @@ By using producer_gjrich.py and consumer_gjrich.py, the custom medieval messages
 
 For each randomly produced message, a count of each letter is then built in the buzz.sqlite database.
 
-Prereq: Zookeeper and Kafka must be installed, configured, and active. See further down in the referential instructions if necessary.
+Prereqs: 
+- virtual environment set up with packages installed
+- zookeeper installed and running
+- kafka installed and running
+See the references further down in the readme for more information.
 
 On Windows, to run the environment (after installing, configuring, and running zookeeper and kafka), first start the producer:
 .venv\Scripts\activate
